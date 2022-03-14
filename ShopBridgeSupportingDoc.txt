@@ -1,0 +1,35 @@
+ShopBridge Application
+ --------------------
+
+
+
+The contents uploaded to GitHub are:
+
+1. ThinkBridge_Project_SQL - this contains the queries which need to be run separately.
+2. ShopBridgeDAL - Data access layer of the ShopBridgeSolution
+3. ShopBridgeProject - MVC of ShopBridgeSolution
+4. ShopBridgeProjectTests - Contains unit test cases for the application
+5. ShopBridgeConsole1 - Craeted just to test the DAL code
+6. ShopBridgeSolution.sln - The ShopBridgeSolution
+7. Packages1,2,3 - Packages has been split into three folders due to space constarint in uploading to git hub
+
+
+
+First, kindly run the below queries in sequence from the ThinkBridge_Project_SQL folder in local database:
+	a. CreateInventoryDataTable
+	b. AddInventory
+	c. ListInventory
+	d. UpdateInventory
+	e. DeleteInventory
+
+Second, kindly put the the files 2 to 6 and (combine Packages1,Packages2, Packages3 in a single folder named "Packages") in a folder named "ShopBridgeSolution"
+Third, open the ShopBridgeSolution.sln to test the application. Run the application (Preferably Chrome).
+
+Enjoy the ShopBridge experience where you can add , update , delete and list the inventories.
+
+
+Time spent on application-
+ For understanding the concept andwriting queries in sql - 1 day
+ For developing MVC - 2 and half days
+ For testing - 1 day
+ 
